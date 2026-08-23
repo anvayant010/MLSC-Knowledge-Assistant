@@ -2,8 +2,11 @@
 __pycache__/
 *.py[codz]
 *$py.class
-
+.claude
+.streamlit
+knowledge_base.db
 # C extensions
+AboutMLSC
 *.so
 
 # Distribution / packaging
@@ -216,3 +219,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local vector store (regenerated from AboutMLSC/ via src/ingest.py)
+chroma_db/
+
+# Junk from zip extraction on macOS
+__MACOSX/
+
