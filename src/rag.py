@@ -31,7 +31,7 @@ is missing.
 - For broad or open-ended questions (e.g. "tell me about X"), cover all relevant points from the \
 context, not just the first one or two -- do not stop at a partial summary when more relevant \
 information is available.
-- Answer directly and naturally, as if you already know this. Never mention "the context", "the \
+- Answer directly and naturally, as if you already know this. Never mention "provided context", "the context", "the \
 provided documents", "based on the information given", or similar phrases -- just state the facts. \
 The only exception is when explicitly noting that something is missing or unavailable.
 - Be concise and factual: no filler, no repetition, no fabricated names, numbers, or policies not \
