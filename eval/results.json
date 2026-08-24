@@ -1,0 +1,340 @@
+[
+  {
+    "id": 1,
+    "category": "direct",
+    "question": "What technical domains exist in MLSC?",
+    "expected_sources": [
+      "domains.txt"
+    ],
+    "retrieved_sources": [
+      "domains.txt",
+      "leadership.txt"
+    ],
+    "answer": "According to the provided context, the technical domains that exist in MLSC are:\n\n1. Artificial Intelligence and Machine Learning\n2. Web Development\n3. App Development\n4. Cloud Computing\n5. Web3\n\nThese domains are mentioned in the \"domains.txt\" source document.",
+    "is_answerable": true,
+    "answerable_correct": true,
+    "context_precision": 0.5,
+    "context_recall": 1.0,
+    "answer_relevancy": 1.0,
+    "faithfulness": 1.0
+  },
+  {
+    "id": 2,
+    "category": "direct",
+    "question": "What is MLSC and what does it focus on?",
+    "expected_sources": [
+      "about_mlsc.txt"
+    ],
+    "retrieved_sources": [
+      "membership.txt",
+      "code_of_conduct.txt",
+      "about_mlsc.txt"
+    ],
+    "answer": "According to the context, MLSC (Microsoft Learn Student Community) VIT Pune is a student-led technical community focused on helping students learn, build, collaborate, and participate in technology-related activities. It aims to create an environment where students can learn technologies through practical implementation rather than only theoretical study.",
+    "is_answerable": true,
+    "answerable_correct": true,
+    "context_precision": 0.3333333333333333,
+    "context_recall": 1.0,
+    "answer_relevancy": 1.0,
+    "faithfulness": 1.0
+  },
+  {
+    "id": 3,
+    "category": "direct",
+    "question": "What stages do participants typically go through in an MLSC hackathon?",
+    "expected_sources": [
+      "hackathons.txt"
+    ],
+    "retrieved_sources": [
+      "hackathons.txt"
+    ],
+    "answer": "According to the provided context, participants in an MLSC hackathon typically go through the following stages:\n\n1. Registration\n2. Idea submission\n3. Shortlisting\n4. Development\n5. Final presentation\n\nNote that there may be variations in the exact judging criteria between hackathons.",
+    "is_answerable": true,
+    "answerable_correct": true,
+    "context_precision": 1.0,
+    "context_recall": 1.0,
+    "answer_relevancy": 1.0,
+    "faithfulness": 1.0
+  },
+  {
+    "id": 4,
+    "category": "direct",
+    "question": "What kinds of behavior are not acceptable under the MLSC code of conduct?",
+    "expected_sources": [
+      "code_of_conduct.txt"
+    ],
+    "retrieved_sources": [
+      "code_of_conduct.txt"
+    ],
+    "answer": "According to the provided context, the following behaviors are not acceptable under the MLSC code of conduct:\n\n1. Harassment\n2. Discrimination\n3. Plagiarism\n4. Intentional disruption of community activities",
+    "is_answerable": true,
+    "answerable_correct": true,
+    "context_precision": 1.0,
+    "context_recall": 1.0,
+    "answer_relevancy": 1.0,
+    "faithfulness": 1.0
+  },
+  {
+    "id": 5,
+    "category": "direct",
+    "question": "What are domain leads responsible for?",
+    "expected_sources": [
+      "leadership.txt"
+    ],
+    "retrieved_sources": [
+      "leadership.txt"
+    ],
+    "answer": "According to the provided context, domain leads are responsible for:\n\n1. Planning the learning roadmap for their domain.\n2. Assigning tasks to coordinators.\n3. Conducting knowledge-sharing sessions.\n4. Reviewing technical projects.\n5. Mentoring coordinators.\n6. Encouraging participation in hackathons.\n7. Coordinating cross-domain projects when required.",
+    "is_answerable": true,
+    "answerable_correct": true,
+    "context_precision": 1.0,
+    "context_recall": 1.0,
+    "answer_relevancy": 1.0,
+    "faithfulness": 1.0
+  },
+  {
+    "id": 6,
+    "category": "multi_doc",
+    "question": "How does the domain lead structure relate to the technical domains in MLSC?",
+    "expected_sources": [
+      "leadership.txt",
+      "domains.txt"
+    ],
+    "retrieved_sources": [
+      "leadership.txt",
+      "domains.txt"
+    ],
+    "answer": "The domain lead structure relates to the technical domains in MLSC as each technical domain has two domain leads. These domain leads are responsible for planning technical activities, conducting knowledge-sharing sessions, reviewing technical projects, mentoring coordinators, encouraging participation in hackathons, and coordinating cross-domain projects when required.",
+    "is_answerable": true,
+    "answerable_correct": true,
+    "context_precision": 1.0,
+    "context_recall": 1.0,
+    "answer_relevancy": 1.0,
+    "faithfulness": 1.0
+  },
+  {
+    "id": 7,
+    "category": "multi_doc",
+    "question": "If I want to build an AI-powered project for an MLSC hackathon, which domains might be involved and what stages would I go through?",
+    "expected_sources": [
+      "hackathons.txt",
+      "domains.txt"
+    ],
+    "retrieved_sources": [
+      "hackathons.txt",
+      "domains.txt"
+    ],
+    "answer": "Based on the provided context, if you want to build an AI-powered project for an MLSC hackathon, the following domains might be involved:\n\n* Artificial Intelligence and Machine Learning (AI/ML)\n* Web Development (for the web-based aspects of your project)\n* Cloud Computing (if your project involves cloud deployment)\n\nAs for the stages, you would likely progress through:\n\n1. Registration\n2. Idea submission\n3. Shortlisting\n4. Development\n5. Final presentation\n\nDuring the development stage, mentors from the AI/ML and Web Development domains might provide technical guidance to help you build your project.",
+    "is_answerable": true,
+    "answerable_correct": true,
+    "context_precision": 1.0,
+    "context_recall": 1.0,
+    "answer_relevancy": 1.0,
+    "faithfulness": 1.0
+  },
+  {
+    "id": 8,
+    "category": "multi_doc",
+    "question": "What is expected of members in terms of conduct, and how does someone move from being a member to a coordinator?",
+    "expected_sources": [
+      "code_of_conduct.txt",
+      "membership.txt"
+    ],
+    "retrieved_sources": [
+      "membership.txt",
+      "code_of_conduct.txt",
+      "leadership.txt"
+    ],
+    "answer": "According to the provided context, MLSC members are expected to maintain a respectful and inclusive environment, communicate respectfully with others, and respect intellectual property. They should also handle technical disagreements professionally and ask questions and challenge ideas constructively.\n\nTo become a coordinator, students should generally be evaluated on their technical skills, willingness to contribute, communication, and ability to work in a team. They should also be encouraged to attend technical sessions and participate in projects before applying for leadership or coordinator roles. \n\n(Note: The provided context does not explicitly state how someone moves from being a member to a coordinator, but it suggests that students interested in becoming coordinators should participate in projects and attend technical sessions before applying for coordinator roles.)",
+    "is_answerable": true,
+    "answerable_correct": true,
+    "context_precision": 0.6666666666666666,
+    "context_recall": 1.0,
+    "answer_relevancy": 0.8,
+    "faithfulness": 0.8
+  },
+  {
+    "id": 9,
+    "category": "multi_doc",
+    "question": "How are domain leads and coordinators related, and what does someone need to do to become a coordinator?",
+    "expected_sources": [
+      "leadership.txt",
+      "membership.txt"
+    ],
+    "retrieved_sources": [
+      "leadership.txt"
+    ],
+    "answer": "According to the provided context, domain leads and coordinators are related in that coordinators work under the guidance of domain leads. Domain leads are responsible for planning the learning roadmap for their domain, assigning tasks to coordinators, and mentoring coordinators.\n\nTo become a coordinator, someone needs to work under the guidance of a domain lead. Second-year coordinators are expected to gradually take more responsibility for projects and technical activities under the guidance of domain leads. It is likely that domain leads identify and assign tasks to coordinators, and coordinators report to and receive guidance from domain leads.",
+    "is_answerable": true,
+    "answerable_correct": true,
+    "context_precision": 1.0,
+    "context_recall": 0.5,
+    "answer_relevancy": 1.0,
+    "faithfulness": 1.0
+  },
+  {
+    "id": 10,
+    "category": "reasoning",
+    "question": "Based on what domain leads are responsible for, what kind of skills would a coordinator need to develop before being ready for a domain lead role?",
+    "expected_sources": [
+      "leadership.txt"
+    ],
+    "retrieved_sources": [
+      "leadership.txt"
+    ],
+    "answer": "Based on the provided context, a coordinator would need to develop the following skills before being ready for a domain lead role:\n\n* Planning the learning roadmap for their domain\n* Assigning tasks to coordinators\n* Conducting knowledge-sharing sessions\n* Reviewing technical projects\n* Mentoring coordinators\n* Encouraging participation in hackathons\n* Coordinating cross-domain projects when required\n\nThese skills are mentioned as responsibilities of domain leads, implying that coordinators would need to develop these skills before taking on a domain lead role.",
+    "is_answerable": true,
+    "answerable_correct": true,
+    "context_precision": 1.0,
+    "context_recall": 1.0,
+    "answer_relevancy": 1.0,
+    "faithfulness": 1.0
+  },
+  {
+    "id": 11,
+    "category": "reasoning",
+    "question": "Why might a hackathon project need contributions from more than one MLSC technical domain?",
+    "expected_sources": [
+      "hackathons.txt",
+      "domains.txt"
+    ],
+    "retrieved_sources": [
+      "hackathons.txt"
+    ],
+    "answer": "According to the context, a hackathon project might need contributions from more than one MLSC technical domain because \"Projects may involve multiple technical domains. For example, an AI-powered application could require artificial intelligence, web development and cloud deployment.\"",
+    "is_answerable": true,
+    "answerable_correct": true,
+    "context_precision": 1.0,
+    "context_recall": 0.5,
+    "answer_relevancy": 1.0,
+    "faithfulness": 1.0
+  },
+  {
+    "id": 12,
+    "category": "reasoning",
+    "question": "Why does the MLSC code of conduct encourage challenging ideas constructively rather than avoiding technical disagreement altogether?",
+    "expected_sources": [
+      "code_of_conduct.txt"
+    ],
+    "retrieved_sources": [
+      "code_of_conduct.txt"
+    ],
+    "answer": "The MLSC code of conduct encourages challenging ideas constructively because \"Members are encouraged to ask questions and challenge ideas constructively.\"",
+    "is_answerable": true,
+    "answerable_correct": true,
+    "context_precision": 1.0,
+    "context_recall": 1.0,
+    "answer_relevancy": 1.0,
+    "faithfulness": 1.0
+  },
+  {
+    "id": 13,
+    "category": "unanswerable",
+    "question": "What is the capital of France?",
+    "expected_sources": [],
+    "retrieved_sources": [
+      "domains.txt",
+      "leadership.txt",
+      "about_mlsc.txt"
+    ],
+    "answer": "I don't have that information in the MLSC knowledge base. Please check with an MLSC coordinator or domain lead.",
+    "is_answerable": false,
+    "answerable_correct": true,
+    "context_precision": null,
+    "context_recall": null,
+    "answer_relevancy": 1.0,
+    "faithfulness": 1.0
+  },
+  {
+    "id": 14,
+    "category": "unanswerable",
+    "question": "Who is the current Technical Head of MLSC?",
+    "expected_sources": [],
+    "retrieved_sources": [
+      "leadership.txt",
+      "code_of_conduct.txt",
+      "membership.txt"
+    ],
+    "answer": "I don't have that information in the MLSC knowledge base. Please check with an MLSC coordinator or domain lead.",
+    "is_answerable": false,
+    "answerable_correct": true,
+    "context_precision": null,
+    "context_recall": null,
+    "answer_relevancy": 1.0,
+    "faithfulness": 1.0
+  },
+  {
+    "id": 15,
+    "category": "unanswerable",
+    "question": "Is there a registration fee for MLSC hackathons?",
+    "expected_sources": [],
+    "retrieved_sources": [
+      "membership.txt",
+      "hackathons.txt",
+      "code_of_conduct.txt"
+    ],
+    "answer": "I don't have that information in the MLSC knowledge base. Please check with an MLSC coordinator or domain lead.",
+    "is_answerable": false,
+    "answerable_correct": true,
+    "context_precision": null,
+    "context_recall": null,
+    "answer_relevancy": 1.0,
+    "faithfulness": 1.0
+  },
+  {
+    "id": 16,
+    "category": "unanswerable",
+    "question": "Does MLSC have chapters in countries outside India?",
+    "expected_sources": [],
+    "retrieved_sources": [
+      "about_mlsc.txt",
+      "membership.txt",
+      "code_of_conduct.txt"
+    ],
+    "answer": "I don't have that information in the MLSC knowledge base. Please check with an MLSC coordinator or domain lead.",
+    "is_answerable": false,
+    "answerable_correct": true,
+    "context_precision": null,
+    "context_recall": null,
+    "answer_relevancy": 1.0,
+    "faithfulness": 1.0
+  },
+  {
+    "id": 17,
+    "category": "ambiguous",
+    "question": "What are the various technology areas MLSC works in?",
+    "expected_sources": [
+      "domains.txt"
+    ],
+    "retrieved_sources": [
+      "domains.txt",
+      "about_mlsc.txt",
+      "hackathons.txt"
+    ],
+    "answer": "According to the provided context, MLSC works in the following technology areas:\n\n1. Artificial Intelligence and Machine Learning\n2. Web Development\n3. App Development\n4. Cloud Computing\n5. Web3\n\nThese are the major technical domains mentioned in the \"domains.txt\" source.",
+    "is_answerable": true,
+    "answerable_correct": true,
+    "context_precision": 0.3333333333333333,
+    "context_recall": 1.0,
+    "answer_relevancy": 1.0,
+    "faithfulness": 1.0
+  },
+  {
+    "id": 18,
+    "category": "ambiguous",
+    "question": "How can a student join MLSC and get involved?",
+    "expected_sources": [
+      "membership.txt"
+    ],
+    "retrieved_sources": [
+      "membership.txt"
+    ],
+    "answer": "According to the context, a student can join MLSC and get involved by participating in MLSC activities as a community member. This allows them to participate in technical events, workshops, hackathons, and community initiatives.",
+    "is_answerable": true,
+    "answerable_correct": true,
+    "context_precision": 1.0,
+    "context_recall": 1.0,
+    "answer_relevancy": 1.0,
+    "faithfulness": 1.0
+  }
+]

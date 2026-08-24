@@ -1,0 +1,128 @@
+[
+  {
+    "id": 1,
+    "category": "direct",
+    "question": "What technical domains exist in MLSC?",
+    "expected_sources": ["domains.txt"],
+    "reference_answer": "MLSC has five technical domains: Artificial Intelligence and Machine Learning, Web Development, App Development, Cloud Computing, and Web3."
+  },
+  {
+    "id": 2,
+    "category": "direct",
+    "question": "What is MLSC and what does it focus on?",
+    "expected_sources": ["about_mlsc.txt"],
+    "reference_answer": "MLSC (Microsoft Learn Student Community) VIT Pune is a student-led technical community focused on helping students learn, build, collaborate and participate in technology through workshops, hackathons, study sessions and project-building, emphasizing practical implementation over theory alone."
+  },
+  {
+    "id": 3,
+    "category": "direct",
+    "question": "What stages do participants typically go through in an MLSC hackathon?",
+    "expected_sources": ["hackathons.txt"],
+    "reference_answer": "Participants generally progress through registration, idea submission, shortlisting, development, and final presentation."
+  },
+  {
+    "id": 4,
+    "category": "direct",
+    "question": "What kinds of behavior are not acceptable under the MLSC code of conduct?",
+    "expected_sources": ["code_of_conduct.txt"],
+    "reference_answer": "Harassment, discrimination, plagiarism, and intentional disruption of community activities are not acceptable."
+  },
+  {
+    "id": 5,
+    "category": "direct",
+    "question": "What are domain leads responsible for?",
+    "expected_sources": ["leadership.txt"],
+    "reference_answer": "Domain leads plan the learning roadmap, assign tasks to coordinators, conduct knowledge-sharing sessions, review technical projects, mentor coordinators, encourage hackathon participation, and coordinate cross-domain projects when required."
+  },
+  {
+    "id": 6,
+    "category": "multi_doc",
+    "question": "How does the domain lead structure relate to the technical domains in MLSC?",
+    "expected_sources": ["leadership.txt", "domains.txt"],
+    "reference_answer": "MLSC has five technical domains (AI/ML, Web Development, App Development, Cloud Computing, Web3), and each domain has two domain leads who plan activities and coordinate with coordinators for that domain."
+  },
+  {
+    "id": 7,
+    "category": "multi_doc",
+    "question": "If I want to build an AI-powered project for an MLSC hackathon, which domains might be involved and what stages would I go through?",
+    "expected_sources": ["hackathons.txt", "domains.txt"],
+    "reference_answer": "An AI-powered hackathon project could span multiple domains, e.g. AI/ML, Web Development and Cloud Computing, since hackathon projects may involve multiple technical domains. Participants would go through registration, idea submission, shortlisting, development and final presentation."
+  },
+  {
+    "id": 8,
+    "category": "multi_doc",
+    "question": "What is expected of members in terms of conduct, and how does someone move from being a member to a coordinator?",
+    "expected_sources": ["code_of_conduct.txt", "membership.txt"],
+    "reference_answer": "Members are expected to communicate respectfully, avoid harassment/discrimination/plagiarism, and handle disagreements professionally. To become a coordinator, members go through the MLSC recruitment process, evaluated on technical skills, willingness to contribute, communication and teamwork."
+  },
+  {
+    "id": 9,
+    "category": "multi_doc",
+    "question": "How are domain leads and coordinators related, and what does someone need to do to become a coordinator?",
+    "expected_sources": ["leadership.txt", "membership.txt"],
+    "reference_answer": "Coordinators work under the guidance of domain leads, who mentor them and assign tasks. To become a coordinator, students go through the MLSC recruitment process, evaluated on technical skills, willingness to contribute, communication and teamwork."
+  },
+  {
+    "id": 10,
+    "category": "reasoning",
+    "question": "Based on what domain leads are responsible for, what kind of skills would a coordinator need to develop before being ready for a domain lead role?",
+    "expected_sources": ["leadership.txt"],
+    "reference_answer": "Since domain leads plan learning roadmaps, assign tasks, mentor coordinators, review projects and explain technical concepts clearly, a coordinator preparing for that role would need to develop planning/organizational skills, mentoring ability, project review/feedback skills, and clear technical communication -- consistent with second-year coordinators gradually taking on more responsibility."
+  },
+  {
+    "id": 11,
+    "category": "reasoning",
+    "question": "Why might a hackathon project need contributions from more than one MLSC technical domain?",
+    "expected_sources": ["hackathons.txt", "domains.txt"],
+    "reference_answer": "Because real projects often combine multiple technical layers -- for example an AI-powered application could require AI/ML for the core logic, Web Development for the interface, and Cloud Computing for deployment -- so hackathon projects may naturally span multiple domains."
+  },
+  {
+    "id": 12,
+    "category": "reasoning",
+    "question": "Why does the MLSC code of conduct encourage challenging ideas constructively rather than avoiding technical disagreement altogether?",
+    "expected_sources": ["code_of_conduct.txt"],
+    "reference_answer": "Because the code of conduct frames disagreement as a normal, valuable part of technical collaboration when handled professionally and respectfully -- members are encouraged to ask questions and challenge ideas constructively, rather than staying silent, as long as disagreements are handled professionally."
+  },
+  {
+    "id": 13,
+    "category": "unanswerable",
+    "question": "What is the capital of France?",
+    "expected_sources": [],
+    "reference_answer": "This information is not available in the MLSC knowledge base."
+  },
+  {
+    "id": 14,
+    "category": "unanswerable",
+    "question": "Who is the current Technical Head of MLSC?",
+    "expected_sources": [],
+    "reference_answer": "The knowledge base describes the Technical Head role generically but does not name a specific individual."
+  },
+  {
+    "id": 15,
+    "category": "unanswerable",
+    "question": "Is there a registration fee for MLSC hackathons?",
+    "expected_sources": [],
+    "reference_answer": "The knowledge base does not mention any registration fee for hackathons."
+  },
+  {
+    "id": 16,
+    "category": "unanswerable",
+    "question": "Does MLSC have chapters in countries outside India?",
+    "expected_sources": [],
+    "reference_answer": "The knowledge base does not mention MLSC chapters in other countries."
+  },
+  {
+    "id": 17,
+    "category": "ambiguous",
+    "question": "What are the various technology areas MLSC works in?",
+    "expected_sources": ["domains.txt"],
+    "reference_answer": "MLSC has five technical domains: Artificial Intelligence and Machine Learning, Web Development, App Development, Cloud Computing, and Web3."
+  },
+  {
+    "id": 18,
+    "category": "ambiguous",
+    "question": "How can a student join MLSC and get involved?",
+    "expected_sources": ["membership.txt"],
+    "reference_answer": "Students can participate as community members, joining technical events, workshops, hackathons and community initiatives; becoming a coordinator additionally requires going through the MLSC recruitment process."
+  }
+]
