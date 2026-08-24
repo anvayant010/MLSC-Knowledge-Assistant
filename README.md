@@ -7,6 +7,10 @@ knowledge base — instead of a hallucinated one.
 
 Built for the MLSC AIML Domain Lead recruitment challenge.
 
+## Demo UI
+
+![Demo UI](assets/image.png)
+
 ## Contents
 
 - [Quick start](#quick-start)
@@ -15,7 +19,6 @@ Built for the MLSC AIML Domain Lead recruitment challenge.
 - [Project structure](#project-structure)
 - [Known limitations](#known-limitations)
 
-See [APPROACH.md](APPROACH.md) for the approach and major technical decisions.
 
 ## Quick start
 
