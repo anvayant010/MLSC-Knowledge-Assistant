@@ -2,10 +2,8 @@
 
 A retrieval-augmented question-answering system for the MLSC knowledge base. Ask a
 question in natural language, get an answer grounded in the official MLSC documents
-with sources cited, and get an honest "I don't know" when the answer isn't in the
-knowledge base — instead of a hallucinated one.
+with sources cited.
 
-Built for the MLSC AIML Domain Lead recruitment challenge.
 
 ## Demo UI
 
